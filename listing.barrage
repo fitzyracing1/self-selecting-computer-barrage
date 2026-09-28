@@ -1,0 +1,45 @@
+# Self-Selecting Computer
+
+> A computer that picks all of its own programs from a goal, then registers them, talks to the net, and stays on a terminal.
+
+## Purpose
+Explain the self-selecting computer so anyone can see it chooses software from a goal instead of a fixed menu. Source: fitzyracing1/self-selecting-computer.
+
+## How it works (plain English)
+1. Name a goal.
+2. The machine selects programs for that goal.
+3. It registers what it selected.
+4. It can use internet, browser, a small server, GPU awareness, and a terminal.
+
+## Key ideas
+- Goal-driven selection (the goal picks the programs)
+- Self-registration (it writes down what it chose)
+- Terminal (a person can still type to it)
+
+## The actual code
+```
+# source: fitzyracing1/self-selecting-computer
+goal = name_goal()
+programs = select_for(goal)
+register(programs)
+serve_and_talk()
+```
+
+## Line-by-line translation
+1. name_goal() → “say what the machine is for”
+2. select_for(goal) → “pick programs that serve that goal”
+3. register(programs) → “write the list down”
+4. serve_and_talk() → “stay reachable on net and terminal”
+
+## Decisions the program makes
+- If a goal is named → select programs for it
+- If no goal is named → wait
+
+## What a person would notice
+The machine’s program list comes from a goal, not a factory image.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the source repo and name one goal.

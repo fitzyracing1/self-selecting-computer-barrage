@@ -1,2 +1,5 @@
 # self-selecting-computer-barrage
-Barrage plain-language clone of fitzyracing1/self-selecting-computer
+
+Barrage clone of [fitzyracing1/self-selecting-computer](https://github.com/fitzyracing1/self-selecting-computer).
+
+Read [listing.barrage](listing.barrage).
